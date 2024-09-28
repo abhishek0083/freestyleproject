@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/abhishek0083/freestyleproject.git', branch: 'main'
+                git url: 'https://github.com/abhishek0083/freestyleproject.git', branch: 'master'
             }
         }
         stage('Build') {
