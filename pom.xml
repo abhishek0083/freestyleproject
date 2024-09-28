@@ -39,5 +39,11 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+      </build>
+      <distributionManagement>
+        <repository>
+            <id>my-release-repo</id>
+            <url>https://github.com/abhishek0083/freestyleproject/releases</url>
+        </repository>
+    </distributionManagement> 
 </project>
