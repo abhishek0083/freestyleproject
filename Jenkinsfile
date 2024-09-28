@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'mvn clean validate compile test package verify install'
+                bat 'mvn clean validate compile test package verify install'
             }
         }
     }
